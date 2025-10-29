@@ -1,0 +1,11 @@
+[0.022s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[0.142s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[3.146s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kbool TurtlesimAutomata::near_edge()[m[K’:
+[3.146s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:102:146:[m[K [01;31m[Kerror: [m[K‘[01m[Kbounda[m[K’ was not declared in this scope; did you mean ‘[01m[Kroundl[m[K’?
+[3.146s]   102 |         return ((current_pose_.x < boundary) || (current_pose_.x > 11.0 - boundary) || (current_pose_.y < boundary) || (current_pose_.y > 11.0 - [01;31m[Kbounda[m[K));
+[3.146s]       |                                                                                                                                                  [01;31m[K^~~~~~[m[K
+[3.147s]       |                                                                                                                                                  [32m[Kroundl[m[K
+[5.890s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[5.893s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[5.893s] gmake: *** [Makefile:146: all] Error 2
+[5.898s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7

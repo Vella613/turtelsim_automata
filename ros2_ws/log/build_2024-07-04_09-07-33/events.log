@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.000223] (turtlesim_automata) JobQueued: {'identifier': 'turtlesim_automata', 'dependencies': OrderedDict()}
+[0.000296] (turtlesim_automata) JobStarted: {'identifier': 'turtlesim_automata'}
+[0.014364] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'cmake'}
+[0.015842] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'build'}
+[0.016994] (turtlesim_automata) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vella/ros2_ws/build/turtlesim_automata', '--', '-j7', '-l7'], 'cwd': '/home/vella/ros2_ws/build/turtlesim_automata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vella'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vella'), ('OLDPWD', '/home/vella/ros2_ws'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('SYSTEMD_EXEC_PID', '2827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vella-VirtualBox:@/tmp/.ICE-unix/2785,unix/vella-VirtualBox:/tmp/.ICE-unix/2785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f117e322_f0c1_490a_ab17_2812d901e969'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1312'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vella/ros2_ws/build/turtlesim_automata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.097603] (-) TimerEvent: {}
+[0.104083] (turtlesim_automata) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target turtlesim_automata_node\x1b[0m\n'}
+[0.133506] (turtlesim_automata) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o\x1b[0m\n'}
+[0.198943] (-) TimerEvent: {}
+[0.303347] (-) TimerEvent: {}
+[0.404684] (-) TimerEvent: {}
+[0.507012] (-) TimerEvent: {}
+[0.607902] (-) TimerEvent: {}
+[0.711702] (-) TimerEvent: {}
+[0.812263] (-) TimerEvent: {}
+[0.913185] (-) TimerEvent: {}
+[1.014367] (-) TimerEvent: {}
+[1.114852] (-) TimerEvent: {}
+[1.215340] (-) TimerEvent: {}
+[1.317691] (-) TimerEvent: {}
+[1.420362] (-) TimerEvent: {}
+[1.528833] (-) TimerEvent: {}
+[1.638193] (-) TimerEvent: {}
+[1.742036] (-) TimerEvent: {}
+[1.844837] (-) TimerEvent: {}
+[1.946260] (-) TimerEvent: {}
+[2.047003] (-) TimerEvent: {}
+[2.147506] (-) TimerEvent: {}
+[2.249036] (-) TimerEvent: {}
+[2.350227] (-) TimerEvent: {}
+[2.452188] (-) TimerEvent: {}
+[2.556198] (-) TimerEvent: {}
+[2.661527] (-) TimerEvent: {}
+[2.766678] (-) TimerEvent: {}
+[2.867943] (-) TimerEvent: {}
+[2.968825] (-) TimerEvent: {}
+[3.069963] (-) TimerEvent: {}
+[3.170493] (-) TimerEvent: {}
+[3.267329] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.267583] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:183:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knode\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.267660] (turtlesim_automata) StderrLine: {'line': b'  183 |     auto turtleTeleport = \x1b[01;31m\x1b[Knode\x1b[m\x1b[K->create_client<turtlesim::srv::TeleportAbsolute>("turtle1/teleport_absolute");\n'}
+[3.267725] (turtlesim_automata) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[3.267778] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:183:79:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before \xe2\x80\x98\x1b[01m\x1b[K>\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[3.267825] (turtlesim_automata) StderrLine: {'line': b'  183 |     auto turtleTeleport = node->create_client<turtlesim::srv::TeleportAbsolute\x1b[01;31m\x1b[K>\x1b[m\x1b[K("turtle1/teleport_absolute");\n'}
+[3.267871] (turtlesim_automata) StderrLine: {'line': b'      |                                                                               \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.267917] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:185:46:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""s\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.267962] (turtlesim_automata) StderrLine: {'line': b'  185 |     while (!turtleTeleport->wait_for_service(\x1b[01;31m\x1b[K1s\x1b[m\x1b[K)) {\n'}
+[3.268007] (turtlesim_automata) StderrLine: {'line': b'      |                                              \x1b[01;31m\x1b[K^~\x1b[m\x1b[K\n'}
+[3.268053] (turtlesim_automata) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.268106] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.268150] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.268193] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.268235] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.268277] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.268320] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.268364] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.268407] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.268451] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.268780] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.268850] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.268906] (turtlesim_automata) StderrLine: {'line': b'  187 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Interrupted while waiting for service to appear.");\n'}
+[3.268954] (turtlesim_automata) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.268999] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.269044] (turtlesim_automata) StderrLine: {'line': b'  187 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Interrupted while waiting for service to appear.");\n'}
+[3.269088] (turtlesim_automata) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.269134] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.269179] (turtlesim_automata) StderrLine: {'line': b'  187 |             \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "Interrupted while waiting for service to appear.");\n'}
+[3.269224] (turtlesim_automata) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.269267] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:188:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kreturn-statement with no value, in function returning \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.269336] (turtlesim_automata) StderrLine: {'line': b'  188 |             \x1b[01;31m\x1b[Kreturn\x1b[m\x1b[K;\n'}
+[3.269386] (turtlesim_automata) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.269440] (turtlesim_automata) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.269489] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.269547] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.269591] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.269674] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.269730] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.269778] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.269822] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.269867] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.269912] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.269956] (turtlesim_automata) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.270000] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.270044] (turtlesim_automata) StderrLine: {'line': b'  190 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "service not available, waiting again...");\n'}
+[3.270087] (turtlesim_automata) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.270130] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.270175] (turtlesim_automata) StderrLine: {'line': b'  190 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "service not available, waiting again...");\n'}
+[3.270218] (turtlesim_automata) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.270261] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.270304] (turtlesim_automata) StderrLine: {'line': b'  190 |         \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(node->get_logger(), "service not available, waiting again...");\n'}
+[3.270348] (turtlesim_automata) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.270689] (-) TimerEvent: {}
+[3.371480] (-) TimerEvent: {}
+[3.472310] (-) TimerEvent: {}
+[3.576687] (-) TimerEvent: {}
+[3.680480] (-) TimerEvent: {}
+[3.787100] (-) TimerEvent: {}
+[3.887750] (-) TimerEvent: {}
+[3.988355] (-) TimerEvent: {}
+[4.089660] (-) TimerEvent: {}
+[4.191502] (-) TimerEvent: {}
+[4.292553] (-) TimerEvent: {}
+[4.394238] (-) TimerEvent: {}
+[4.494668] (-) TimerEvent: {}
+[4.598979] (-) TimerEvent: {}
+[4.702995] (-) TimerEvent: {}
+[4.804348] (-) TimerEvent: {}
+[4.904787] (-) TimerEvent: {}
+[5.008565] (-) TimerEvent: {}
+[5.109811] (-) TimerEvent: {}
+[5.211929] (-) TimerEvent: {}
+[5.312661] (-) TimerEvent: {}
+[5.413134] (-) TimerEvent: {}
+[5.513490] (-) TimerEvent: {}
+[5.614423] (-) TimerEvent: {}
+[5.716261] (-) TimerEvent: {}
+[5.820676] (-) TimerEvent: {}
+[5.921113] (-) TimerEvent: {}
+[6.022526] (-) TimerEvent: {}
+[6.123004] (-) TimerEvent: {}
+[6.224268] (-) TimerEvent: {}
+[6.326619] (-) TimerEvent: {}
+[6.428172] (-) TimerEvent: {}
+[6.528628] (-) TimerEvent: {}
+[6.559001] (turtlesim_automata) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1\n'}
+[6.560410] (turtlesim_automata) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2\n'}
+[6.560617] (turtlesim_automata) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.567165] (turtlesim_automata) CommandEnded: {'returncode': 2}
+[6.632341] (-) TimerEvent: {}
+[6.733859] (-) TimerEvent: {}
+[6.787702] (turtlesim_automata) JobEnded: {'identifier': 'turtlesim_automata', 'rc': 2}
+[6.798544] (-) EventReactorShutdown: {}

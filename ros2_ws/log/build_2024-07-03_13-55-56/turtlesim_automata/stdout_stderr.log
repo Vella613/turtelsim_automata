@@ -1,0 +1,4 @@
+[0mCMake Error: The current CMakeCache.txt directory /home/vella/ros2_ws/build/turtlesim_automata/CMakeCache.txt is different than the directory /home/vella/ros2_ws_2/build/turtlesim_automata where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0mCMake Error: The source directory "/home/vella/ros2_ws_2/src/turtlesim_automata" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

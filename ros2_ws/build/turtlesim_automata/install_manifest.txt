@@ -1,0 +1,16 @@
+/home/vella/ros2_ws/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node
+/home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/package_run_dependencies/turtlesim_automata
+/home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/parent_prefix_path/turtlesim_automata
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.sh
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.dsv
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/path.sh
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/path.dsv
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.bash
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.sh
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.zsh
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.dsv
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/package.dsv
+/home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/packages/turtlesim_automata
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig.cmake
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig-version.cmake
+/home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/package.xml

@@ -1,0 +1,5 @@
+[0.045s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[0.079s] [0mCMake Error: The source directory "/home/vella/ros2_ws/src/turtlesim_automata" does not exist.
+[0.080s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.082s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.088s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7

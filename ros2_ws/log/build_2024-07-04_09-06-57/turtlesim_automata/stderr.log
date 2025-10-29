@@ -1,0 +1,56 @@
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:183:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+  183 |     auto turtleTeleport = [01;31m[Knode[m[K->create_client<turtlesim::srv::TeleportAbsolute>("turtle1/teleport_absolute");
+      |                           [01;31m[K^~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:183:79:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  183 |     auto turtleTeleport = node->create_client<turtlesim::srv::TeleportAbsolute[01;31m[K>[m[K("turtle1/teleport_absolute");
+      |                                                                               [01;31m[K^[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:185:46:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+  185 |     while (!turtleTeleport->wait_for_service([01;31m[K1s[m[K)) {
+      |                                              [01;31m[K^~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:1[m[K:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  187 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Interrupted while waiting for service to appear.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  187 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Interrupted while waiting for service to appear.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:187:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  187 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Interrupted while waiting for service to appear.");
+      |             [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:188:13:[m[K [01;31m[Kerror: [m[Kreturn-statement with no value, in function returning ‘[01m[Kint[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  188 |             [01;31m[Kreturn[m[K;
+      |             [01;31m[K^~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:1[m[K:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "service not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "service not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:190:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  190 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "service not available, waiting again...");
+      |         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

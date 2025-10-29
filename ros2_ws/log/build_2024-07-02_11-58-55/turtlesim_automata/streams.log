@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[0.114s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[8.101s] [100%] [32m[1mLinking CXX executable turtlesim_automata_node[0m
+[8.490s] [100%] Built target turtlesim_automata_node
+[8.507s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[8.580s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata
+[8.588s] -- Install configuration: ""
+[8.589s] -- Installing: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node
+[8.601s] -- Set runtime path of "/home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node" to ""
+[8.604s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/package_run_dependencies/turtlesim_automata
+[8.604s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/parent_prefix_path/turtlesim_automata
+[8.604s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.sh
+[8.604s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.dsv
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/path.sh
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/path.dsv
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.bash
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.sh
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.zsh
+[8.605s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.dsv
+[8.606s] -- Installing: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/package.dsv
+[8.606s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/packages/turtlesim_automata
+[8.607s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig.cmake
+[8.607s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig-version.cmake
+[8.607s] -- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/package.xml
+[8.612s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata

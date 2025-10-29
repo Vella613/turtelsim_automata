@@ -1,0 +1,15 @@
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:159:7:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kclass TurtlesimAutomata[m[K’
+  159 | class [01;31m[KTurtlesimAutomata[m[K : public rclcpp::Node
+      |       [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:9:7:[m[K [01;36m[Knote: [m[Kprevious definition of ‘[01m[Kclass TurtlesimAutomata[m[K’
+    9 | class [01;36m[KTurtlesimAutomata[m[K : public rclcpp::Node
+      |       [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:294:5:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kint main(int, char**)[m[K’
+  294 | int [01;31m[Kmain[m[K(int argc, char *argv[])
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:144:5:[m[K [01;36m[Knote: [m[K‘[01m[Kint main(int, char**)[m[K’ previously defined here
+  144 | int [01;36m[Kmain[m[K(int argc, char *argv[])
+      |     [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

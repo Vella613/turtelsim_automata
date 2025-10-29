@@ -1,0 +1,44 @@
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In lambda function:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:121:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kstatus[m[K’
+  121 |                 if (result.get()->[01;31m[Kstatus[m[K != rclcpp::callback_group::CallResult::SUCCESS) {
+      |                                   [01;31m[K^~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:121:53:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::callback_group[m[K’ has not been declared
+  121 |                 if (result.get()->status != rclcpp::[01;31m[Kcallback_group[m[K::CallResult::SUCCESS) {
+      |                                                     [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:1[m[K:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:127:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  127 |                             result.get()->[01;31m[Kresponse[m[K->x, result.get()->response->y, result.get()->response->theta);
+      |                                           [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:127:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  127 |                             result.get()->response->x, result.get()->[01;31m[Kresponse[m[K->y, result.get()->response->theta);
+      |                                                                      [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:127:97:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  127 |                             result.get()->response->x, result.get()->response->y, result.get()->[01;31m[Kresponse[m[K->theta);
+      |                                                                                                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:128:48:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  128 |                 current_pose_ = *result.get()->[01;31m[Kresponse[m[K;
+      |                                                [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:130:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  130 |                 current_twist_.linear.x = 2.0 * std::cos(result.get()->[01;31m[Kresponse[m[K->theta); // Set initial forward velocity
+      |                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:131:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::srv::TeleportAbsolute_Response_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kresponse[m[K’
+  131 |                 current_twist_.linear.y = 2.0 * std::sin(result.get()->[01;31m[Kresponse[m[K->theta); // Set initial forward velocity
+      |                                                                        [01;31m[K^~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimAutomata::teleport_to_random_position()[m[K’:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:135:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct rclcpp::Client<turtlesim::srv::TeleportAbsolute>::FutureAndRequestId[m[K’ has no member named ‘[01m[Kset_callback[m[K’
+  135 |             result.[01;31m[Kset_callback[m[K(callback);
+      |                    [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

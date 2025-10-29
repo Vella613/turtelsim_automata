@@ -1,0 +1,17 @@
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kdouble TurtlesimAutomata::keep_in_bounds(double, double, char)[m[K’:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:134:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+  134 |         [01;31m[K{[m[K
+      |         [01;31m[K^[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:139:9:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kif[m[K’
+  139 |         [01;31m[Kif[m[K (axis == 'x')
+      |         [01;31m[K^~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:139:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kif[m[K’
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:132:12:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+  132 |         if [01;36m[K([m[K((position < min_boundary) && (velocity < 0))
+      |            [01;36m[K^[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:167:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+  167 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

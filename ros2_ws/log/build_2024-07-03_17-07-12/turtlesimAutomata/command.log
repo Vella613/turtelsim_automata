@@ -1,0 +1,2 @@
+Invoking command in '/home/vella/ros2_ws/build/turtlesimAutomata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vella/ros2_ws/src/turtlesimAutomata -DCMAKE_INSTALL_PREFIX=/home/vella/ros2_ws/install/turtlesimAutomata
+Invoked command in '/home/vella/ros2_ws/build/turtlesimAutomata' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vella/ros2_ws/src/turtlesimAutomata -DCMAKE_INSTALL_PREFIX=/home/vella/ros2_ws/install/turtlesimAutomata

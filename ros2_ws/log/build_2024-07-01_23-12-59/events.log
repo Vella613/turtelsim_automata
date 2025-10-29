@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000446] (turtlesim_automata) JobQueued: {'identifier': 'turtlesim_automata', 'dependencies': OrderedDict()}
+[0.000528] (turtlesim_automata) JobStarted: {'identifier': 'turtlesim_automata'}
+[0.032397] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'cmake'}
+[0.041938] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'build'}
+[0.042084] (turtlesim_automata) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata', '--', '-j7', '-l7'], 'cwd': '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vella'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vella'), ('OLDPWD', '/home/vella/Desktop/ros2_ws_2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('SYSTEMD_EXEC_PID', '2827'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vella-VirtualBox:@/tmp/.ICE-unix/2785,unix/vella-VirtualBox:/tmp/.ICE-unix/2785'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54cdd40a_6905_4736_a8c3_e8037674c140'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.111'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098705] (-) TimerEvent: {}
+[0.159546] (turtlesim_automata) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o\x1b[0m\n'}
+[0.199024] (-) TimerEvent: {}
+[0.300379] (-) TimerEvent: {}
+[0.400905] (-) TimerEvent: {}
+[0.503409] (-) TimerEvent: {}
+[0.604093] (-) TimerEvent: {}
+[0.711102] (-) TimerEvent: {}
+[0.813736] (-) TimerEvent: {}
+[0.915972] (-) TimerEvent: {}
+[1.017200] (-) TimerEvent: {}
+[1.118595] (-) TimerEvent: {}
+[1.224688] (-) TimerEvent: {}
+[1.328152] (-) TimerEvent: {}
+[1.430210] (-) TimerEvent: {}
+[1.533262] (-) TimerEvent: {}
+[1.633825] (-) TimerEvent: {}
+[1.735103] (-) TimerEvent: {}
+[1.835984] (-) TimerEvent: {}
+[1.938837] (-) TimerEvent: {}
+[2.039973] (-) TimerEvent: {}
+[2.141892] (-) TimerEvent: {}
+[2.243029] (-) TimerEvent: {}
+[2.344692] (-) TimerEvent: {}
+[2.445346] (-) TimerEvent: {}
+[2.546275] (-) TimerEvent: {}
+[2.660334] (-) TimerEvent: {}
+[2.762410] (-) TimerEvent: {}
+[2.781919] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTurtlesimAutomata::TurtlesimAutomata()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.782309] (turtlesim_automata) StderrLine: {'line': b'\x1b[01m\x1b[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:36:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kusing Pose = struct turtlesim::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstruct turtlesim::msg::Pose_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} has no member named \xe2\x80\x98\x1b[01m\x1b[Kz\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.782472] (turtlesim_automata) StderrLine: {'line': b'   36 |         current_pose_.\x1b[01;31m\x1b[Kz\x1b[m\x1b[K = random_angle;\n'}
+[2.782541] (turtlesim_automata) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.862625] (-) TimerEvent: {}
+[2.964584] (-) TimerEvent: {}
+[3.065486] (-) TimerEvent: {}
+[3.167100] (-) TimerEvent: {}
+[3.268917] (-) TimerEvent: {}
+[3.370730] (-) TimerEvent: {}
+[3.471604] (-) TimerEvent: {}
+[3.572348] (-) TimerEvent: {}
+[3.703391] (-) TimerEvent: {}
+[3.807599] (-) TimerEvent: {}
+[3.914202] (-) TimerEvent: {}
+[4.015250] (-) TimerEvent: {}
+[4.115779] (-) TimerEvent: {}
+[4.221938] (-) TimerEvent: {}
+[4.325991] (-) TimerEvent: {}
+[4.427136] (-) TimerEvent: {}
+[4.529127] (-) TimerEvent: {}
+[4.630239] (-) TimerEvent: {}
+[4.731530] (-) TimerEvent: {}
+[4.832651] (-) TimerEvent: {}
+[4.934250] (-) TimerEvent: {}
+[5.035693] (-) TimerEvent: {}
+[5.141042] (-) TimerEvent: {}
+[5.241702] (-) TimerEvent: {}
+[5.343498] (-) TimerEvent: {}
+[5.445853] (-) TimerEvent: {}
+[5.503632] (turtlesim_automata) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1\n'}
+[5.506755] (turtlesim_automata) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2\n'}
+[5.508284] (turtlesim_automata) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.511200] (turtlesim_automata) CommandEnded: {'returncode': 2}
+[5.547006] (-) TimerEvent: {}
+[5.580484] (turtlesim_automata) JobEnded: {'identifier': 'turtlesim_automata', 'rc': 2}
+[5.598118] (-) EventReactorShutdown: {}

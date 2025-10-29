@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:165:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr TurtlesimAutomata::turtleTeleport_[m[K’ is private within this context
+  165 |     while (!node->[01;31m[KturtleTeleport_[m[K->wait_for_service(1s)) {
+      |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:150:65:[m[K [01;36m[Knote: [m[Kdeclared private here
+  150 |     rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr [01;36m[KturtleTeleport_[m[K;
+      |                                                                 [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

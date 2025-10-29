@@ -1,0 +1,8 @@
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kbool TurtlesimAutomata::near_edge()[m[K’:
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:102:146:[m[K [01;31m[Kerror: [m[K‘[01m[Kbounda[m[K’ was not declared in this scope; did you mean ‘[01m[Kroundl[m[K’?
+  102 |         return ((current_pose_.x < boundary) || (current_pose_.x > 11.0 - boundary) || (current_pose_.y < boundary) || (current_pose_.y > 11.0 - [01;31m[Kbounda[m[K));
+      |                                                                                                                                                  [01;31m[K^~~~~~[m[K
+      |                                                                                                                                                  [32m[Kroundl[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

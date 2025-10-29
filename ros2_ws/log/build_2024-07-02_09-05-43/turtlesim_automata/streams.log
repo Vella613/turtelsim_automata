@@ -1,0 +1,26 @@
+[0.018s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[3.723s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In constructor ‘[01m[KTurtlesimAutomata::TurtlesimAutomata()[m[K’:
+[3.723s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position[m[K’?
+[3.723s]    36 |         [01;31m[Kcurrent_position_[m[K.theta = random_angle;  // tried many possible  cases to rotate the random angle but the mysterious machine is acting unpredictably  but not random and even worsening the simulation sometimes
+[3.723s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.723s]       |         [32m[Kcurrent_position[m[K
+[3.731s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimAutomata::pose_callback(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.731s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:44:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_posistion[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position[m[K’?
+[3.731s]    44 |         [01;31m[Kcurrent_posistion[m[K = *msg;
+[3.731s]       |         [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.732s]       |         [32m[Kcurrent_position[m[K
+[3.735s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimAutomata::move_turtle()[m[K’:
+[3.735s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:90:79:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position[m[K’?
+[3.735s]    90 |             current_twist_.linear.x = keep_in_bounds(current_twist_.linear.x, [01;31m[Kcurrent_position_[m[K.x, 'x');
+[3.735s]       |                                                                               [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.735s]       |                                                                               [32m[Kcurrent_position[m[K
+[3.738s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kbool TurtlesimAutomata::near_edge()[m[K’:
+[3.739s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:102:28:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_position_[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_position[m[K’?
+[3.739s]   102 |         double is_near = (([01;31m[Kcurrent_position_[m[K.x < boundary) || (current_position_.x > 11.0 - boundary) || (current_position_.y < boundary) || (current_position_.y > 11.0 - boundary));
+[3.739s]       |                            [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[3.739s]       |                            [32m[Kcurrent_position[m[K
+[7.426s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[7.426s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[7.436s] gmake: *** [Makefile:146: all] Error 2
+[7.457s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7

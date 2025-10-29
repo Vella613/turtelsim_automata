@@ -1,0 +1,8 @@
+[0.019s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[0.152s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[8.089s] gmake[2]: *** wait: No child processes.  Stop.
+[8.090s] gmake[2]: *** Waiting for unfinished jobs....
+[8.090s] gmake[2]: *** wait: No child processes.  Stop.
+[8.090s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[8.093s] gmake: *** [Makefile:146: all] Interrupt
+[8.151s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '-2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7

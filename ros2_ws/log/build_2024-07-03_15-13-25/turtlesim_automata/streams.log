@@ -1,0 +1,62 @@
+[0.045s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vella/ros2_ws/src/turtlesimAutomata -DCMAKE_INSTALL_PREFIX=/home/vella/ros2_ws/install/turtlesim_automata
+[0.315s] -- The C compiler identification is GNU 11.4.0
+[0.498s] -- The CXX compiler identification is GNU 11.4.0
+[0.508s] -- Detecting C compiler ABI info
+[0.696s] -- Detecting C compiler ABI info - done
+[0.701s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.702s] -- Detecting C compile features
+[0.702s] -- Detecting C compile features - done
+[0.713s] -- Detecting CXX compiler ABI info
+[0.924s] -- Detecting CXX compiler ABI info - done
+[0.930s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.934s] -- Detecting CXX compile features
+[0.935s] -- Detecting CXX compile features - done
+[0.942s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.208s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.382s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[1.473s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.478s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.488s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.502s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.534s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.642s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.642s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.935s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.987s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.091s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.131s] -- Looking for pthread.h
+[2.371s] -- Looking for pthread.h - found
+[2.371s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.606s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.606s] -- Found Threads: TRUE  
+[2.835s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[2.969s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.123s] -- Configuring done
+[3.141s] -- Generating done
+[3.145s] -- Build files have been written to: /home/vella/ros2_ws/build/turtlesim_automata
+[3.194s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vella/ros2_ws/src/turtlesimAutomata -DCMAKE_INSTALL_PREFIX=/home/vella/ros2_ws/install/turtlesim_automata
+[3.195s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[3.335s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[13.768s] [100%] [32m[1mLinking CXX executable turtlesim_automata_node[0m
+[14.382s] [100%] Built target turtlesim_automata_node
+[14.401s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[14.568s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vella/ros2_ws/build/turtlesim_automata
+[14.583s] -- Install configuration: ""
+[14.583s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node
+[14.615s] -- Set runtime path of "/home/vella/ros2_ws/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node" to ""
+[14.615s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/package_run_dependencies/turtlesim_automata
+[14.615s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/parent_prefix_path/turtlesim_automata
+[14.620s] -- Up-to-date: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.sh
+[14.620s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.dsv
+[14.620s] -- Up-to-date: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/path.sh
+[14.622s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/environment/path.dsv
+[14.622s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.bash
+[14.622s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.sh
+[14.623s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.zsh
+[14.623s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/local_setup.dsv
+[14.623s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/package.dsv
+[14.623s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/ament_index/resource_index/packages/turtlesim_automata
+[14.626s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig.cmake
+[14.626s] -- Installing: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig-version.cmake
+[14.626s] -- Up-to-date: /home/vella/ros2_ws/install/turtlesim_automata/share/turtlesim_automata/package.xml
+[14.630s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vella/ros2_ws/build/turtlesim_automata

@@ -1,0 +1,8 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In constructor ‘[01m[KTurtlesimAutomata::TurtlesimAutomata()[m[K’:
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:36:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Pose = struct turtlesim::msg::Pose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct turtlesim::msg::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kz[m[K’
+   36 |         current_pose_.[01;31m[Kz[m[K = random_angle;
+      |                       [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

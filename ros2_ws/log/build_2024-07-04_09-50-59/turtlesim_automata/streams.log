@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[0.086s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[3.135s] [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimAutomata::teleport_to_random_position()[m[K’:
+[3.135s] [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:121:36:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::FutureAndRequestId[m[K’
+[3.135s]   121 |             current_pose_ = *result[01;31m[K->[m[Kget();
+[3.135s]       |                                    [01;31m[K^~[m[K
+[6.410s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[6.410s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[6.410s] gmake: *** [Makefile:146: all] Error 2
+[6.413s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7

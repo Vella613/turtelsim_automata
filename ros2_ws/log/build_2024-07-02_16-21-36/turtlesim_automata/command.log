@@ -1,0 +1,2 @@
+Invoking command in '/home/vella/Desktop/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws/build/turtlesim_automata -- -j7 -l7
+Invoked command in '/home/vella/Desktop/ros2_ws/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws/build/turtlesim_automata -- -j7 -l7

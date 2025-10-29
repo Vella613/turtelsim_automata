@@ -1,0 +1,11 @@
+[0.016s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[0.123s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[0.211s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[3.026s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kvoid TurtlesimAutomata::move_turtle()[m[K’:
+[3.026s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:54:17:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdelay_duration_[m[K’
+[3.026s]    54 |                 [01;31m[Kdelay_duration_[m[K = 10; // Stop for 1 second (10 * 100ms)
+[3.026s]       |                 [01;31m[K^~~~~~~~~~~~~~~[m[K
+[5.871s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[5.871s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[5.871s] gmake: *** [Makefile:146: all] Error 2
+[5.926s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7

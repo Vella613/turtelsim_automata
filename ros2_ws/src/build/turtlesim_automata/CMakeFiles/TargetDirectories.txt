@@ -1,0 +1,10 @@
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/uninstall.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/turtlesim_automata_uninstall.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/turtlesim_automata_node.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/test.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/edit_cache.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/rebuild_cache.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/list_install_components.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/install.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/install/local.dir
+/home/vella/ros2_ws/src/build/turtlesim_automata/CMakeFiles/install/strip.dir

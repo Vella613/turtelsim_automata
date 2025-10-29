@@ -1,0 +1,15 @@
+[0.019s] Invoking command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7
+[0.115s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[0.175s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[2.242s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kbool TurtlesimAutomata::near_edge()[m[K’:
+[2.242s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:76:147:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+[2.242s]    76 | pose_.x > 11.0 - margin) || (current_pose_.y < margin) || (current_pose_.y > 11.0 - margin)[01;31m[K;[m[K
+[2.243s]       |                                                                                            [01;31m[K^[m[K
+[2.243s] 
+[2.243s] [01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:76:16:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.243s]    76 |         return [01;36m[K([m[K(current_pose_.x < margin) || (current_pose_.x > 11.0 - margin) || (current_pose_.y < margin) || (current_pose_.y > 11.0 - margin);
+[2.243s]       |                [01;36m[K^[m[K
+[4.516s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[4.516s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[4.517s] gmake: *** [Makefile:146: all] Error 2
+[4.536s] Invoked command in '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/vella/Desktop/ros2_ws_2/build/turtlesim_automata -- -j7 -l7

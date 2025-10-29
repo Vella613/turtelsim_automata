@@ -1,0 +1,210 @@
+[0.000000] (-) TimerEvent: {}
+[0.000945] (turtlesim_automata) JobQueued: {'identifier': 'turtlesim_automata', 'dependencies': OrderedDict()}
+[0.002507] (turtlesim_automata) JobStarted: {'identifier': 'turtlesim_automata'}
+[0.018870] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'cmake'}
+[0.029123] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'build'}
+[0.029292] (turtlesim_automata) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata', '--', '-j7', '-l7'], 'cwd': '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vella'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vella'), ('OLDPWD', '/home/vella/Desktop/ros2_ws_2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('SYSTEMD_EXEC_PID', '2686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vella-VirtualBox:@/tmp/.ICE-unix/2663,unix/vella-VirtualBox:/tmp/.ICE-unix/2663'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/010205aa_8de4_49fd_961b_d19a66d52d3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[0.104432] (-) TimerEvent: {}
+[0.216720] (-) TimerEvent: {}
+[0.310479] (turtlesim_automata) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o\x1b[0m\n'}
+[0.318214] (-) TimerEvent: {}
+[0.426688] (-) TimerEvent: {}
+[0.542472] (-) TimerEvent: {}
+[0.644256] (-) TimerEvent: {}
+[0.745875] (-) TimerEvent: {}
+[0.851786] (-) TimerEvent: {}
+[0.962399] (-) TimerEvent: {}
+[1.064248] (-) TimerEvent: {}
+[1.221005] (-) TimerEvent: {}
+[1.326175] (-) TimerEvent: {}
+[1.432719] (-) TimerEvent: {}
+[1.534130] (-) TimerEvent: {}
+[1.635680] (-) TimerEvent: {}
+[1.738507] (-) TimerEvent: {}
+[1.840775] (-) TimerEvent: {}
+[1.943614] (-) TimerEvent: {}
+[2.045695] (-) TimerEvent: {}
+[2.146860] (-) TimerEvent: {}
+[2.269573] (-) TimerEvent: {}
+[2.371022] (-) TimerEvent: {}
+[2.481247] (-) TimerEvent: {}
+[2.584713] (-) TimerEvent: {}
+[2.691245] (-) TimerEvent: {}
+[2.816563] (-) TimerEvent: {}
+[2.923441] (-) TimerEvent: {}
+[3.025829] (-) TimerEvent: {}
+[3.134078] (-) TimerEvent: {}
+[3.245088] (-) TimerEvent: {}
+[3.347856] (-) TimerEvent: {}
+[3.452148] (-) TimerEvent: {}
+[3.553844] (-) TimerEvent: {}
+[3.658535] (-) TimerEvent: {}
+[3.763834] (-) TimerEvent: {}
+[3.870743] (-) TimerEvent: {}
+[3.972768] (-) TimerEvent: {}
+[4.073320] (-) TimerEvent: {}
+[4.175582] (-) TimerEvent: {}
+[4.283951] (-) TimerEvent: {}
+[4.402106] (-) TimerEvent: {}
+[4.502619] (-) TimerEvent: {}
+[4.603726] (-) TimerEvent: {}
+[4.705469] (-) TimerEvent: {}
+[4.806647] (-) TimerEvent: {}
+[4.908354] (-) TimerEvent: {}
+[5.009307] (-) TimerEvent: {}
+[5.123454] (-) TimerEvent: {}
+[5.232974] (-) TimerEvent: {}
+[5.335319] (-) TimerEvent: {}
+[5.438752] (-) TimerEvent: {}
+[5.544173] (-) TimerEvent: {}
+[5.651013] (-) TimerEvent: {}
+[5.756279] (-) TimerEvent: {}
+[5.868868] (-) TimerEvent: {}
+[5.969652] (-) TimerEvent: {}
+[6.071154] (-) TimerEvent: {}
+[6.173440] (-) TimerEvent: {}
+[6.275777] (-) TimerEvent: {}
+[6.377484] (-) TimerEvent: {}
+[6.483106] (-) TimerEvent: {}
+[6.601223] (-) TimerEvent: {}
+[6.703963] (-) TimerEvent: {}
+[6.815566] (-) TimerEvent: {}
+[6.919638] (-) TimerEvent: {}
+[7.021704] (-) TimerEvent: {}
+[7.125390] (-) TimerEvent: {}
+[7.227290] (-) TimerEvent: {}
+[7.328714] (-) TimerEvent: {}
+[7.429724] (-) TimerEvent: {}
+[7.531331] (-) TimerEvent: {}
+[7.634625] (-) TimerEvent: {}
+[7.737856] (-) TimerEvent: {}
+[7.838656] (-) TimerEvent: {}
+[7.940800] (-) TimerEvent: {}
+[8.042129] (-) TimerEvent: {}
+[8.147711] (-) TimerEvent: {}
+[8.249525] (-) TimerEvent: {}
+[8.351851] (-) TimerEvent: {}
+[8.456307] (-) TimerEvent: {}
+[8.559239] (-) TimerEvent: {}
+[8.662705] (-) TimerEvent: {}
+[8.764166] (-) TimerEvent: {}
+[8.864918] (-) TimerEvent: {}
+[8.967017] (-) TimerEvent: {}
+[9.068529] (-) TimerEvent: {}
+[9.169428] (-) TimerEvent: {}
+[9.271903] (-) TimerEvent: {}
+[9.373573] (-) TimerEvent: {}
+[9.515158] (-) TimerEvent: {}
+[9.617399] (-) TimerEvent: {}
+[9.720205] (-) TimerEvent: {}
+[9.822464] (-) TimerEvent: {}
+[9.923964] (-) TimerEvent: {}
+[10.028994] (-) TimerEvent: {}
+[10.129894] (-) TimerEvent: {}
+[10.231196] (-) TimerEvent: {}
+[10.332517] (-) TimerEvent: {}
+[10.437549] (-) TimerEvent: {}
+[10.539358] (-) TimerEvent: {}
+[10.644475] (-) TimerEvent: {}
+[10.745725] (-) TimerEvent: {}
+[10.847278] (-) TimerEvent: {}
+[10.951638] (-) TimerEvent: {}
+[11.055673] (-) TimerEvent: {}
+[11.157256] (-) TimerEvent: {}
+[11.258903] (-) TimerEvent: {}
+[11.363255] (-) TimerEvent: {}
+[11.474665] (-) TimerEvent: {}
+[11.580828] (-) TimerEvent: {}
+[11.731254] (-) TimerEvent: {}
+[11.833128] (-) TimerEvent: {}
+[11.936541] (-) TimerEvent: {}
+[12.047417] (-) TimerEvent: {}
+[12.148759] (-) TimerEvent: {}
+[12.276839] (-) TimerEvent: {}
+[12.379635] (-) TimerEvent: {}
+[12.483194] (-) TimerEvent: {}
+[12.585409] (-) TimerEvent: {}
+[12.686505] (-) TimerEvent: {}
+[12.787233] (-) TimerEvent: {}
+[12.888186] (-) TimerEvent: {}
+[12.988744] (-) TimerEvent: {}
+[13.091007] (-) TimerEvent: {}
+[13.192831] (-) TimerEvent: {}
+[13.293868] (-) TimerEvent: {}
+[13.403138] (-) TimerEvent: {}
+[13.503906] (-) TimerEvent: {}
+[13.606033] (-) TimerEvent: {}
+[13.707626] (-) TimerEvent: {}
+[13.808819] (-) TimerEvent: {}
+[13.910587] (-) TimerEvent: {}
+[14.012932] (-) TimerEvent: {}
+[14.117990] (-) TimerEvent: {}
+[14.218717] (-) TimerEvent: {}
+[14.364301] (-) TimerEvent: {}
+[14.481716] (-) TimerEvent: {}
+[14.588928] (-) TimerEvent: {}
+[14.691260] (-) TimerEvent: {}
+[14.828602] (-) TimerEvent: {}
+[14.929674] (-) TimerEvent: {}
+[15.030455] (-) TimerEvent: {}
+[15.131181] (-) TimerEvent: {}
+[15.235306] (-) TimerEvent: {}
+[15.341531] (-) TimerEvent: {}
+[15.442624] (-) TimerEvent: {}
+[15.548014] (-) TimerEvent: {}
+[15.649563] (-) TimerEvent: {}
+[15.753475] (-) TimerEvent: {}
+[15.854990] (-) TimerEvent: {}
+[15.956292] (-) TimerEvent: {}
+[16.060331] (-) TimerEvent: {}
+[16.162338] (-) TimerEvent: {}
+[16.271936] (-) TimerEvent: {}
+[16.372988] (-) TimerEvent: {}
+[16.476670] (-) TimerEvent: {}
+[16.579575] (-) TimerEvent: {}
+[16.680787] (-) TimerEvent: {}
+[16.800978] (-) TimerEvent: {}
+[16.908266] (-) TimerEvent: {}
+[17.029992] (-) TimerEvent: {}
+[17.131378] (-) TimerEvent: {}
+[17.236043] (-) TimerEvent: {}
+[17.337901] (-) TimerEvent: {}
+[17.439214] (-) TimerEvent: {}
+[17.577758] (-) TimerEvent: {}
+[17.720464] (-) TimerEvent: {}
+[17.853304] (turtlesim_automata) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable turtlesim_automata_node\x1b[0m\n'}
+[17.853846] (-) TimerEvent: {}
+[17.956776] (-) TimerEvent: {}
+[18.058697] (-) TimerEvent: {}
+[18.160615] (-) TimerEvent: {}
+[18.261395] (-) TimerEvent: {}
+[18.362835] (-) TimerEvent: {}
+[18.481405] (-) TimerEvent: {}
+[18.494546] (turtlesim_automata) StdoutLine: {'line': b'[100%] Built target turtlesim_automata_node\n'}
+[18.514858] (turtlesim_automata) CommandEnded: {'returncode': 0}
+[18.581660] (-) TimerEvent: {}
+[18.619732] (turtlesim_automata) JobProgress: {'identifier': 'turtlesim_automata', 'progress': 'install'}
+[18.640898] (turtlesim_automata) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata'], 'cwd': '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'vella'), ('LC_TIME', 'de_AT.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vella'), ('OLDPWD', '/home/vella/Desktop/ros2_ws_2'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_AT.UTF-8'), ('SYSTEMD_EXEC_PID', '2686'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vella'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vella'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vella-VirtualBox:@/tmp/.ICE-unix/2663,unix/vella-VirtualBox:/tmp/.ICE-unix/2663'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_AT.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/010205aa_8de4_49fd_961b_d19a66d52d3b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_AT.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.90'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install/my_package:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_AT.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_AT.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_AT.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vella/Desktop/ros2_ws_2/build/turtlesim_automata'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_AT.UTF-8'), ('LC_PAPER', 'de_AT.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/vella/Desktop/ros2_ws/install/my_package:/opt/ros/humble')]), 'shell': False}
+[18.652614] (turtlesim_automata) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[18.653970] (turtlesim_automata) StdoutLine: {'line': b'-- Installing: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node\n'}
+[18.678638] (turtlesim_automata) StdoutLine: {'line': b'-- Set runtime path of "/home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/lib/turtlesim_automata/turtlesim_automata_node" to ""\n'}
+[18.679189] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/package_run_dependencies/turtlesim_automata\n'}
+[18.679344] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/parent_prefix_path/turtlesim_automata\n'}
+[18.679416] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.sh\n'}
+[18.679544] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/ament_prefix_path.dsv\n'}
+[18.679690] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/path.sh\n'}
+[18.679760] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/environment/path.dsv\n'}
+[18.679827] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.bash\n'}
+[18.679890] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.sh\n'}
+[18.680343] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.zsh\n'}
+[18.680526] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/local_setup.dsv\n'}
+[18.680625] (turtlesim_automata) StdoutLine: {'line': b'-- Installing: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/package.dsv\n'}
+[18.680735] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/ament_index/resource_index/packages/turtlesim_automata\n'}
+[18.680797] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig.cmake\n'}
+[18.680857] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/cmake/turtlesim_automataConfig-version.cmake\n'}
+[18.681456] (turtlesim_automata) StdoutLine: {'line': b'-- Up-to-date: /home/vella/Desktop/ros2_ws_2/install/turtlesim_automata/share/turtlesim_automata/package.xml\n'}
+[18.681781] (-) TimerEvent: {}
+[18.684915] (turtlesim_automata) CommandEnded: {'returncode': 0}
+[18.784127] (-) TimerEvent: {}
+[18.823812] (turtlesim_automata) JobEnded: {'identifier': 'turtlesim_automata', 'rc': 0}
+[18.824833] (-) EventReactorShutdown: {}

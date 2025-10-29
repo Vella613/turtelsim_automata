@@ -1,0 +1,14 @@
+[0.014s] Invoking command in '/home/vella/ros2_ws/build/turtlesim_automata': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7
+[0.098s] [35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[0.127s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[3.386s] [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.386s] [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:165:19:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr TurtlesimAutomata::turtleTeleport_[m[K’ is private within this context
+[3.386s]   165 |     while (!node->[01;31m[KturtleTeleport_[m[K->wait_for_service(1s)) {
+[3.386s]       |                   [01;31m[K^~~~~~~~~~~~~~~[m[K
+[3.386s] [01m[K/home/vella/ros2_ws/src/turtlesim_automata/src/turtlesim_automata_node.cpp:150:65:[m[K [01;36m[Knote: [m[Kdeclared private here
+[3.386s]   150 |     rclcpp::Client<turtlesim::srv::TeleportAbsolute>::SharedPtr [01;36m[KturtleTeleport_[m[K;
+[3.386s]       |                                                                 [01;36m[K^~~~~~~~~~~~~~~[m[K
+[8.218s] gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+[8.219s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+[8.219s] gmake: *** [Makefile:146: all] Error 2
+[8.223s] Invoked command in '/home/vella/ros2_ws/build/turtlesim_automata' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vella/ros2_ws/build/turtlesim_automata -- -j7 -l7

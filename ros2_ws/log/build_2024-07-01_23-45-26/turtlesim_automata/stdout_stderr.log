@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target turtlesim_automata_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o[0m
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:[m[K In member function ‘[01m[Kbool TurtlesimAutomata::near_edge()[m[K’:
+[01m[K/home/vella/Desktop/ros2_ws_2/src/turtlesim_automata/src/turtlesim_automata_node.cpp:108:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kcurrent_twist[m[K’ was not declared in this scope; did you mean ‘[01m[Kcurrent_twist_[m[K’?
+  108 |         bool is_near = (current_pose_.x < boundary && [01;31m[Kcurrent_twist[m[K.linear.x < 0);
+      |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                       [32m[Kcurrent_twist_[m[K
+gmake[2]: *** [CMakeFiles/turtlesim_automata_node.dir/build.make:76: CMakeFiles/turtlesim_automata_node.dir/src/turtlesim_automata_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/turtlesim_automata_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
